@@ -25,6 +25,7 @@ array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
+  array.delete_at(index_number)
 
 end
 
